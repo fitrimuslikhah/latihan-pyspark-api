@@ -10,5 +10,5 @@ Project sederhana membangun *ETL (Extract, Trasform, Load)* pipeline menggunakan
 
 ## Cara Menjalankan Project
 ```bash
-git clone [https://github.com/fitrimuslikhah/latihan-pyspark-api.git](https://github.com/fitrimuslikhah/latihan-pyspark-api.git)
+git clone https://github.com/fitrimuslikhah/latihan-pyspark-api.git
 cd latihan-pyspark-api
