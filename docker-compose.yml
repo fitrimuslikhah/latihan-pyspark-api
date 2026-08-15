@@ -1,0 +1,23 @@
+services:
+  #service 1. database PostgreSQL
+  postgres:
+    image: postgres:15-alpine
+    container_name: postgres_db
+    environment:
+      POSTGRES_DB: datawarehouse
+      POSTGRES_USER: spark_user
+      POSTGRES_PASSWORD: spark_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  #service 2. Aplikasi pyspark
+  pyspark-app:
+    build: .
+    container_name: pyspark_runner
+    depends_on:
+      - postgres
+
+volumes:
+  postgres_data: 
