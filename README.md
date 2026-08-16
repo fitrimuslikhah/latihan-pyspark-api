@@ -16,7 +16,7 @@ Project sederhana membangun *ETL (Extract, Trasform, Load)* pipeline menggunakan
 - **Visualization** (Menghubungkan PostgreSQL ke Looker Studio untuk analisis visual)
 
 ## Dashboard Preview
-https://datastudio.google.com/u/0/reporting/cd1a169b-cfbf-40ca-858c-a7f28942f2a6/page/xPa6F/edit
+https://datastudio.google.com/s/uI7r8mIMKJU
 
 ## Cara Menjalankan Project
 ```bash
