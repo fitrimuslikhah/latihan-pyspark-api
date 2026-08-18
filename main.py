@@ -76,7 +76,7 @@ df_clean.show(5)
 # Simpan data ke database PostgreSQL
 print("Mengirim data ke database PostgreSQL")
 
-db_url = "jdbc:postgresql://postgres:5432/datawarehouse"
+db_url = "jdbc:postgresql://host.docker.internal:5432/datawarehouse"
 db_properties = {
     "user": "spark_user",
     "password": "spark_password",
